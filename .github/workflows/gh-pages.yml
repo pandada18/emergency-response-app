@@ -20,7 +20,7 @@ jobs:
           channel: 'stable'
       - run: flutter pub get
       - run: flutter clean
-      - run: flutter build web --release --web-renderer html --base-href /
+      - run: flutter build web --release --web-renderer html --base-href /emergency-response-app/emergency-response-app/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
